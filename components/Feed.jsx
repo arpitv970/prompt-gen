@@ -6,14 +6,13 @@ import PromptCard from './PromptCard';
 const PromptCardList = ({ data, handleTagClick }) => {
     return (
         <div className='mt-10 prompt_layout'>
-            {data &&
-                data.map((post) => (
-                    <PromptCard
-                        key={post._id}
-                        post={post}
-                        handleTagClick={handleTagClick}
-                    />
-                ))}
+            {data.map((post) => (
+                <PromptCard
+                    key={post._id}
+                    post={post}
+                    handleTagClick={handleTagClick}
+                />
+            ))}
         </div>
     );
 };
