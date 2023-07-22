@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import PromptCard from './PromptCard';
+import { useSession } from 'next-auth/react';
 
 const PromptCardList = ({ data, handleTagClick }) => {
     return (
@@ -21,6 +22,7 @@ const PromptCardList = ({ data, handleTagClick }) => {
 const Feed = () => {
     const [searchText, setSearchText] = useState('');
     const [posts, setPosts] = useState([]);
+    const { data: session } = useSession();
 
     useEffect(() => {
         const fetchPost = async () => {
@@ -30,8 +32,10 @@ const Feed = () => {
             setPosts(data);
         };
 
-        fetchPost();
-    }, [setPosts]);
+        if (session?.user.id) {
+            fetchPost();
+        }
+    }, [session]);
 
     const handleSearchChange = (e) => {
         e.preventDefault();
