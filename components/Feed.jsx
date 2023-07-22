@@ -31,7 +31,7 @@ const Feed = () => {
         };
 
         fetchPost();
-    }, []);
+    }, [setPosts]);
 
     const handleSearchChange = (e) => {
         e.preventDefault();
