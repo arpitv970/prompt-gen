@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Powered Chat Application
 
-## Getting Started
+> ⚠️This application is currently under-devlopment, and it is Open for your precious contribution
 
-First, run the development server:
+---
+### Join conversation with team 👇
+[![Discord](https://img.shields.io/discord/807214956357484583?color=blue&label=Discord%20Server&logo=Cold%20Spin%20Server&style=for-the-badge)](https://discord.gg/xR6qCrU8mu)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This application is dedicated to people who value time, so that they could save time by **not writing** the similar prompt again and again. Simply login & start saving your prompts. Also, discover prompts by other people involved in the community.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Getting Started
+## Local Setup
+Follow the procedure mentioned just below, to setup this application in your local machine:
+- Fork this repository to your GitHub Account
+- Now simply clone it to your machine
+- After cloning the application, jump right into the `prompt-gen` directory
+  ```bash
+  cd prompt-gen
+  ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Initiating project on local machine
+- Inside `prompt-gen` directory, generate the `node_modules` for the dependencies.
+    ```bash
+    npm install
+    ```
+- After installing dependencies, run the project locally
+  - To run dev scripts
+    ```bash
+    npm run dev
+    ```
+- To run at deployment server
+    ```bash
+    npm start
+    ```
 
-## Learn More
+### Now you have done with installation & running the project to your local machine, feel free to contribute to the project 🤗
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Task TO-DO
+- Search
+    - By prompt
+    - By tags
+    - By User name
+- visit other profile
+- add error pages
