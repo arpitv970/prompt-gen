@@ -1,46 +1,44 @@
 # AI Powered Chat Application
 
-> ⚠️This application is currently under-devlopment, and it is Open for your precious contribution
+> ⚠️This application is currently under development, and it is Open for your precious contribution.
 
 ---
-### Join conversation with team 👇
+
+### Join conversation with the team 👇  
 [![Discord](https://img.shields.io/discord/807214956357484583?color=blue&label=Discord%20Server&logo=Cold%20Spin%20Server&style=for-the-badge)](https://discord.gg/xR6qCrU8mu)
 
 ---
 
-This application is dedicated to people who value time, so that they could save time by **not writing** the similar prompt again and again. Simply login & start saving your prompts. Also, discover prompts by other people involved in the community.
+This application is dedicated to people who value time, so they can save time by **not writing** similar prompts repeatedly. Simply login & start saving your prompts. Also, discover prompts shared by others in the community.
+
+---
 
 # Getting Started
-## Local Setup
-Follow the procedure mentioned just below, to setup this application in your local machine:
-- Fork this repository to your GitHub Account
-- Now simply clone it to your machine
-- After cloning the application, jump right into the `prompt-gen` directory
-  ```bash
-  cd prompt-gen
-  ```
 
-## Initiating project on local machine
-- Inside `prompt-gen` directory, generate the `node_modules` for the dependencies.
-    ```bash
-    npm install
+## Local Setup
+Follow the steps below to set up this application on your local machine:
+1. Fork this repository to your GitHub account.
+2. Clone the forked repository to your machine.
+3. Navigate to the `prompt-gen` directory:
+   ```bash
+   cd prompt-gen
+   ```
+4.	Duplicate the `.env.example` file to create a `.env` file:
+   ```
+   cp .env.example .env
+   ```
+## Initiating the Project on Local Machine
+- Intall Dependencies:
     ```
-- After installing dependencies, run the project locally
-  - To run dev scripts
-    ```bash
+    npm i
+    ```
+- Start development server:
+    ```
     npm run dev
     ```
-- To run at deployment server
-    ```bash
+- Start Production Server:
+    ```
     npm start
     ```
 
-### Now you have done with installation & running the project to your local machine, feel free to contribute to the project 🤗
-
-## Task TO-DO
-- Search
-    - By prompt
-    - By tags
-    - By User name
-- visit other profile
-- add error pages
+> Congratulations! You have successfully set up and run the project on your local machine. Feel free to contribute to the project 🤗.
