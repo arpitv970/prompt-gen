@@ -36,6 +36,10 @@ Follow the steps below to set up this application on your local machine:
     ```
     npm run dev
     ```
+- Build the application:
+    ```
+    npm run build
+    ```
 - Start Production Server:
     ```
     npm start
